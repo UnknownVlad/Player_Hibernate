@@ -26,6 +26,10 @@ public class Player {
     public Player() {
     }
 
+    public Player(String nickname) {
+        this.nickname = nickname;
+    }
+
     public Player(Integer playerId, String nickname, List<Progress> progresses, List<Currencie> currencies, List<Item> items) {
         this.playerId = playerId;
         this.nickname = nickname;

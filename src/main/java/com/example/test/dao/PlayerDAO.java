@@ -1,6 +1,6 @@
 package com.example.test.dao;
 
-import com.example.test.domain.Message;
+
 import com.example.test.model.Player;
 import org.springframework.data.repository.CrudRepository;
 
